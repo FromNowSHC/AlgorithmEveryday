@@ -39,6 +39,10 @@ public class Solution {
 
     /**
      *  答案使用Map巧妙解答
+     *  利用map的 containsKey判断是否包含所需要的数
+     *  将不包含的数放入map中
+     *  通过一次遍历就能找到答案
+     *
      * @param nums
      * @param target
      * @return
