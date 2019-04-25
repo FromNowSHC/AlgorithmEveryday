@@ -1,2 +1,2 @@
 # AlgorithmEveryday
-每天一道算法题。。。
+每天一道算法题
