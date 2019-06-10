@@ -7,7 +7,7 @@ package easy;
  * 输出：1->1->2->3->4->4
  *
  * @author shc
- * @date 2019-06-04
+ * @date 2019-04-04
  **/
 public class MergeTwoList {
 
@@ -59,6 +59,7 @@ public class MergeTwoList {
                 l2 = l2.next;
             }
             // 这一步是关键，使head指向rsp中已经排序好的最后一个节点
+            // 最后一个节点已经指向了l1或l2了
             head = head.next;
             System.out.println(l1.toString());
             System.out.println(l2.toString());

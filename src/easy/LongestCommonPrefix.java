@@ -19,7 +19,7 @@ package easy;
  * 所有输入只包含小写字母 a-z 。
  *
  * @author shc
- * @date 2019-05-15
+ * @date 2019-04-15
  **/
 public class LongestCommonPrefix {
 
