@@ -27,7 +27,7 @@ public class ReverseWords {
         return ret.substring(0, ret.length()-1);
     }
 
-    public String reverseWords(String s) {
+    public String reverseWordTwo(String s) {
         StringBuffer ret = new StringBuffer();
         int length = s.length();
         int i = 0;
